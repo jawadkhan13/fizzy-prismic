@@ -1,6 +1,6 @@
 import FloatingCan from '@/components/FloatingCan'
 import { useGSAP } from '@gsap/react';
-import { Environment, OrbitControls } from '@react-three/drei'
+import { Environment } from '@react-three/drei'
 import gsap from 'gsap';
 import React, { useRef } from 'react'
 import { Group } from 'three';
