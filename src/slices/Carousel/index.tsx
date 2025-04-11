@@ -1,5 +1,5 @@
 "use client";
-import { FC, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { Content } from "@prismicio/client";
 import { PrismicRichText, PrismicText, SliceComponentProps } from "@prismicio/react";
 import { Center, Environment, View } from "@react-three/drei";
