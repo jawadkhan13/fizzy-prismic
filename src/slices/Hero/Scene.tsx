@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-empty-object-type */
 import FloatingCan from '@/components/FloatingCan'
 import { useGSAP } from '@gsap/react';
 import { Environment } from '@react-three/drei'
@@ -125,7 +126,6 @@ export default function Scene({}: Props) {
 
          <FloatingCan ref={can5Ref} flavor="watermelon" floatSpeed={FLOAT_SPEED}/>
         
-            {/* <OrbitControls/> */}
          <Environment files="/hdr/lobby.hdr" environmentIntensity={1.5} />
     </group>
   )
